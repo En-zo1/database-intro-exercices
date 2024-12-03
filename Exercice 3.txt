@@ -1,0 +1,11 @@
+﻿Exercice 3
+
+
+1. Un patient peut-il effectuer plusieur visites ?
+Un patient peut faire plusieurs consultations, parce qu’il y a marqué (1,n) entre les entités Patient et Consultation.
+2. Un médecin peut-il recevoir plusieurs patients dans la même consultation ?
+Oui, un médecin peut recevoir plusieurs patients dans une consultation. Mais ce n'est pas représenté. Peut-être il faudrait une relation supplémentaire pour que ce soit bien représenté.
+3. Peut-on prescrire plusieurs médicaments dans la même consultation ?
+Une consultation peut être liée à plusieurs prescriptions via la relation “prescrire” (cardinalité (0,n) entre Consultation et Prescrire). 
+4. Un même médicament peut être prescrit par plusieurs médecins différents ?
+Un médicament peut être prescrit par plusieurs médecins car il y a (0,n) entre les entités Medecin et Prescrire.
