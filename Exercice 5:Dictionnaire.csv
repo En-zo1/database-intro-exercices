@@ -1,0 +1,12 @@
+Nom de la colonne,Type de données,Description
+Contact_ID,INT,Identifiant unique de la prise de contact (clé primaire)
+Sujet,VARCHAR(100),Sujet du contact
+Type_Cours,VARCHAR(100),Type de cours demandé
+Tranche_Age,VARCHAR(50),Tranche d’âge de la personne
+Age,INT,Âge de la personne
+Nom,VARCHAR(100),Nom de la personne
+Prenom,VARCHAR(100),Prénom de la personne
+Email,VARCHAR(100),Adresse email de la personne
+Telephone,VARCHAR(15),Numéro de téléphone de la personne
+Message,TEXT,Message de la personne
+Date_Contact,DATE,Date à laquelle le contact a été effectué

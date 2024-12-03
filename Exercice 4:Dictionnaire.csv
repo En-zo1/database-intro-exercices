@@ -1,0 +1,16 @@
+Nom de la colonne,Type de données,Description
+Nom_Modele,VARCHAR(100),Identifiant unique du modèle de guitare
+Nb_Cordes,INT,Nombre de cordes de la guitare
+Nb_Micro,INT,Nombre de micros de la guitare
+Matiere_Corps,VARCHAR(50),Matière utilisée pour le corps de la guitare
+Matiere_Table,VARCHAR(50),Matière utilisée pour la table de la guitare
+Matiere_Manche,VARCHAR(50),Matière utilisée pour le manche de la guitare
+Num_Devis,INT,Identifiant unique du devis
+Nom_Client,VARCHAR(100),Nom du client
+Prenom_Client,VARCHAR(100),Prénom du client
+Date_Envoi_Devis,DATE,Date d’envoi du devis
+Nom_Modele_FK,VARCHAR(100),Nom du modèle de guitare lié au devis (clé étrangère vers Nom_Modele)
+Num_Facture,INT,Identifiant unique de la facture
+Date_Envoi_Facture,DATE,Date d’envoi de la facture
+Est_Payee,BOOLEAN,"Indique si la facture est payée (1 = oui, 0 = non)"
+Num_Devis_FK,INT,Numéro de devis lié à la facture (clé étrangère vers Num_Devis)

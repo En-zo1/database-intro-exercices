@@ -1,0 +1,12 @@
+Nom de la colonne,Type de données,Description
+Animal_ID,INT,Identifiant unique de l'animal
+Nom_Animal,VARCHAR(100),Nom de l'animal
+Espece_Animal,VARCHAR(50),"Espèce de l'animal (ex. chien, chat, etc.)"
+Race_Animal,VARCHAR(50),"Race de l'animal (ex. labrador, siamois, etc.)"
+Identifiant_Puce,VARCHAR(20),Identifiant unique de la puce de l'animal
+Date_Naissance_Animal,DATE,Date de naissance de l'animal
+Consultation_ID,INT,Identifiant unique de la consultation
+Date_Consultation,DATE,Date du rendez-vous
+Heure_Consultation,TIME,Heure du rendez-vous
+Nom_Docteur,VARCHAR(100),Nom du vétérinaire ayant réalisé la consultation
+Tarif_Consultation,"DECIMAL(10,2)",Tarif de la consultation (en euros)
